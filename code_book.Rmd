@@ -25,7 +25,7 @@ This code book summarizes the resulting data fields in `tidy.txt` computed from 
 * `STANDING` (value `5`): Subject was standing during the test
 * `LAYING` (value `6`): Subject was laying down during the test
 
-##Measurements
+## Measurements
 
 The items in the `measurement` column correspond to the features of the original dataset. The features selected come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
