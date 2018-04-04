@@ -1,0 +1,27 @@
+---
+title: "README"
+author: "Samantha Toet"
+date: "4/4/2018"
+output: html_document
+---
+
+# Getting and Cleaning Data Course Project
+
+This is the course project for the Getting and Cleaning Data Coursera course from John's Hopkins University. 
+
+The data can be found at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The R script, `run_analysis.R`, does the following:
+
+* Downloads and unzips the dataset
+* Loads the activities, features, subject information, and testing and training datasets
+* Applies `features` as column names for the two datasets for descriptive variable names
+* Merges the testing and training datasets on features
+* Appends the activities and subject information to the two datasets 
+* Converts `activities` and `subjects` into factors and uses those descriptive activity names within the dataset
+* Filters the dataset to only include mean and standard deviation measurements
+* Gathers the dataset into a more readable and plotable long form 
+* Creates a second, tidy dataset that consists of the average value of each variable for each subject and activity pair 
+* The end result is shown in the file `tidy.txt`.
+
+
